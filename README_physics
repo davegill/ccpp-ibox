@@ -7,10 +7,11 @@ submodules within the SCM code.
 
 ## Obtaining Code
 1. Download a compressed file or clone the source using
-  * `git clone -b wrf_devel https://davegill@github.com/davegill/ccpp-phystest.git`
+  * `git clone https://github.com/davegill/ccpp-ibox ccpp-phystest`
   and enter your github password if prompted.
 2. Change directory into the project.
   * `cd ccpp-phystest`
+  * `git checkout wrf-devel`
 3. Install the external libraries
   * `manage_externals/checkout_externals`
   and, if asked, enter your github credentials again. (It may ask for this a number of times)
